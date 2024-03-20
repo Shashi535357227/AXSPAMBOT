@@ -1,6 +1,6 @@
 {
-    "name": "⚡🇩𝜩Ⓐ︎🇩 ⚡.",
-    "logo": "https://graph.org/file/eb514f6d4b35027f8fe0b.jpg",
+    "name": "𖤍🇦𝐅𝐊 ✘ 𝐅𝐮𝐜𝐤𝐞𝐫𝐬.",
+    "logo": "https://telegra.ph/file/c576171a46305e51f85c7.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/SAIFDEAD/AXSPAMBOT",
+    "repository": "https://github.com/Shashi535357227/AXSPAMBOT",
     "env": {
       "BOT_TOKEN": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
