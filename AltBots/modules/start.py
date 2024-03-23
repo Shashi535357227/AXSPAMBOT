@@ -5,15 +5,15 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 START_BUTTON = [
     [
-        Button.inline(" 𝐌ᴜsɪᴄ ", "https://t.me/HINATA_N_BOT"),
-        Button.url("𝐎ᴡɴᴇʀ", "https://t.me/Saif_Dictator")
+        Button.inline(" SUDO ", "https://t.me/Rajput_hu"),
+        Button.url("𝐎ᴡɴᴇʀ", "https://t.me/Rajput_hu")
     ],
     [
-        Button.url(" 𝐂н𝙰𝙽𝙽𝙴𝙻 ", "https://t.me/SAIFALLBOT"),
-        Button.url(" 𝐒𝚄𝙿𝙿𝙾𝚃  ", "https://t.me/SAIFHELPGC")
+        Button.url(" 𝐂н𝙰𝙽𝙽𝙴𝙻 ", "https://t.me/afk_community_ll"),
+        Button.url(" 𝐒𝚄𝙿𝙿𝙾𝚃  ", "https://t.me/TG_TALKERS")
     ],
     [
-        Button.url("𝐑ᴇᴘᴏ ", "github.com/SAIFDEAD/AXSPAMBOT"),
+        Button.url("𝐑ᴇᴘᴏ ", "KHUD SE BNA LE BSDK"),
       
     ]
 ]
@@ -36,13 +36,13 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝐒ᴀsᴜᴋᴇ](https://t.me/Saif_Dictator)**\n\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [SUPRA](https://t.me/Rajput_hu)**\n\n"
         TEXT += f"» **ᴅᴇᴀᴅ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://graph.org/file/eb514f6d4b35027f8fe0b.jpg",
+                    "https://telegra.ph/file/d57877136da61e391eaec.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
 )
