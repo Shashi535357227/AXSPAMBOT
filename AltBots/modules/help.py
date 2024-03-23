@@ -3,7 +3,7 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"𝗗𝗘𝗔𝗗 𝗫 𝗦𝗣𝗔𝗠 𝗛𝗘𝗟𝗣 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Saif_Dictator**"
+HELP_STRING = f"🇸 🇺 🇵 🇷 🇦 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Saif_Dictator**"
 
 HELP_BUTTON = [
     [
@@ -12,11 +12,11 @@ HELP_BUTTON = [
     ],
     [
       Button.inline(" 𝐄xᴛʀᴀ ", data="extra"),
-      Button.url("𝐎𝚆𝙽𝙴𝚁 ", "https://t.me/Saif_Dictator")
+      Button.url("𝐎𝚆𝙽𝙴𝚁 ", "https://t.me/Rajput_hu")
     ],
     [
-      Button.url(" 𝐂ʜᴀɴɴᴇʟ ", "https://t.me/Dead_SupportChat"),
-      Button.url("𝐒ᴜᴘᴘᴏʀᴛ ", "https://t.me/SAIFHELPGC")
+      Button.url(" 𝐂ʜᴀɴɴᴇʟ ", "https://t.me/afk_community_ll"),
+      Button.url("𝐒ᴜᴘᴘᴏʀᴛ ", "https://t.me/TG_TALKERS")
     ]
   ]
 
@@ -62,7 +62,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**𝗗𝗘𝗔𝗗 𝗫 𝗦𝗣𝗔𝗠  **
+**🇸 🇺 🇵 🇷 🇦  **
 """
 
                  
@@ -94,7 +94,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**𝗗𝗘𝗔𝗗 𝗫 𝗦𝗣𝗔𝗠**
+**🇸 🇺 🇵 🇷 🇦**
 """
 
 spam_msg = f"""
@@ -111,7 +111,7 @@ spam_msg = f"""
   1) {hl}hang <counter>
 
 
-**𝗗𝗘𝗔𝗗 𝗫 𝗦𝗣𝗔𝗠**
+**🇸 🇺 🇵 🇷 🇦**
 """                     
            
            
@@ -136,11 +136,10 @@ async def helpback(event):
               ],
               [
                 Button.inline(" 𝗘xᴛʀᴀ ", data="extra"),
-                Button.url(" 𝗢𝚆𝙽𝙴𝚁 ", "https://t.me/Saif_Dictator")
+                Button.url(" 𝗢𝚆𝙽𝙴𝚁 ", "https://t.me/Rajput_hu")
               ],
                          
-                Button.url("𝗖ʜᴀɴɴᴇʟ ", "https://t.me/DE1DSTORE"),
-                Button.url("𝗦ᴜᴘᴘᴏʀᴛ ", "https://t.me/SAIFHELPGC")
+                
             ],
           )
     else:
@@ -163,7 +162,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ 🇩𝜩Ⓐ︎🇩 sᴘᴀᴍ  ʙᴏᴛs !! @Saif_Dictator", cache_time=0, alert=True)
+        await event.answer("ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ 🇩𝜩Ⓐ︎🇩 sᴘᴀᴍ  ʙᴏᴛs !! @Rajput_hu", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -182,7 +181,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ 🇩𝜩Ⓐ︎🇩 sᴘᴀᴍ  ʙᴏᴛs !! @Saif_Dictator", cache_time=0, alert=True)
+        await event.answer("ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ 🇩𝜩Ⓐ︎🇩 sᴘᴀᴍ  ʙᴏᴛs !! @Rajput_hu", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -201,4 +200,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ 🇩𝜩Ⓐ︎🇩 sᴘᴀᴍ  ʙᴏᴛs !! @Saif_Dictator", cache_time=0, alert=True)
+        await event.answer("ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ 🇩𝜩Ⓐ︎🇩 sᴘᴀᴍ  ʙᴏᴛs !! @Rajput_hu", cache_time=0, alert=True)
